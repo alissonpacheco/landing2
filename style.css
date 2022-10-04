@@ -6,6 +6,46 @@
  	box-sizing: border-box;
  	font-family: 'Poppins',sans-serif ;
 }
+.wrapper{
+	width: 100%;
+	margin:0 auto ;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+
+nav{
+	float: right;
+	line-height:100px ;
+}
+
+nav a{
+	text-decoration: none;
+	font-family: 'Poppins';
+	letter-spacing: 4px ;
+	font-size: 20px;
+	color: #19355B;
+	padding: 36px 10px ;
+	margin: 0 1px;
+	font-weight:500;
+}
+
+nav a:hover{
+	background: #fff;
+	color: #130f40;
+}
+
+.content-area {
+   width: 100%;
+   height: 800px;
+   position: relative;
+   background: #999;
+
+}
+
+
 body 
 {
 	display: flex;
