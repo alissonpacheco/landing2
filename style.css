@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*
+{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: 'Poppins',sans-serif ;
+}
+body 
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	background: #EEEDE6;
+}
+body .info h1
+{
+	color: none;
+	font-weight: 1000 ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	witdh: 30px;
+}
+h1 { text-align: center }
+
+body .info h2
+{
+	color: none;
+	justify-content: center;
+	align-items:center;
+	font-weight: 500 ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bolder;
+	font-size: 33px;
+}
+h2 { text-align: center }
+
+body .info h3
+{
+	color: none;
+	justify-content: center;
+	align-items:center;
+	font-weight: 500 ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+body .info h3:before
+{
+   content: '';
+   position: absolute;
+   bottom: -5px;
+   left: 0;
+   width: 50px;
+   height: 2px;
+   
+
+}
+
+body .info h4
+{
+	color: none;
+	justify-content: center;
+	align-items:center;
+	font-weight: 100 ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer
+
+{
+  position:relative;
+  width:100%;
+  height:auto;
+  padding: 50px 100px;
+  background:#111;
+  display: flex ;
+  justify-content: space-between
+  flex-wrap: wrap;
+}
+
+footer .container
+{
+  display:flex ;
+  justify-content: space-between ;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+footer .container .sec
+{
+	margin-right: 30px;
+
+}
+footer .container .sec.aboutus
+{
+	width: 40%;
+}
+footer .container h2
+{
+	position: relative;
+	color: #fff;
+	font-weight: 500 ;
+	margin-bottom: 15px;
+}
+footer .container h2:before
+{
+   content: '';
+   position: absolute;
+   bottom: -5px;
+   left: 0;
+   width: 50px;
+   height: 2px;
+   background: #f00;
+
+}
+footer p
+{
+	color: #999;
+}
+.sci
+{
+	margin-top: 20px;
+	display:flex;
+}
+.sci li
+{
+	list-style: none;
+}
+.sci li a
+{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #222;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin-right: 10px ;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.sci li a :hover
+{
+	background: #f00;
+}
+
+.sci li a .fa
+{
+	color: #fff;
+	font-size: 20px;
+
+}
+.quickLinks
+{
+	position: relative;
+	width: 25%;
+}
+
+.quickLinks ul li a
+{
+	color: #999;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: inline-block;
+
+}
+
+
